@@ -75,28 +75,28 @@ body {
     color: var(--main-background);
 }
 .container {
-    width: 1200;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15;
-    padding-right: 15;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header {
     border-bottom: 1px solid #ececec;
 }
 .header-container {
-    padding-top: 24;
-    padding-bottom: 25;
+    padding-top: 24px;
+    padding-bottom: 25px;
     align-items: center;
     display: flex;
 }
 /* --------------! NAVIGAION ------------- */
 .menu {
     display: flex;
-    margin-left: 93;
+    margin-left: 93px;
 }
 .menu-item:not(:last-child) {
-    margin-right: 50;
+    margin-right: 50px;
 }
 .menu-link {
     font-weight: 500;
@@ -115,10 +115,10 @@ body {
 .header-contact-list {
     display: flex;
     justify-content: flex-end;
-    margin-left: 331;
+    margin-left: 331px;
 }
 .header-contact-item:not(:first-child) {
-    margin-left: 50;
+    margin-left: 50px;
 }
 .header-contact {
     font-weight: 500;
@@ -149,9 +149,9 @@ body {
 }
 .hero-container {
     display: flex;
-    width: 696;
-    padding-top: 200;
-    padding-bottom: 210;
+    width: 696px;
+    padding-top: 200px;
+    padding-bottom: 210px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -169,8 +169,8 @@ body {
     border-radius: 4px;
     border: inherit;
     cursor: pointer;
-    padding: 10 32;
-    margin-top: 40;
+    padding: 10px 32px;
+    margin-top: 40px;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -182,7 +182,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 10;
+    margin-bottom: 10px;
 }
 .pref-text {
     line-height: 1.71;
@@ -194,15 +194,15 @@ body {
 }
 .pref-list {
     display: flex;
-    padding-top: 94;
+    padding-top: 94px;
     gap: 30px;
 }
 .pref-item {
     flex-basis: calc((100% - 60px) / 3);
 }
 .prof {
-    padding-top: 94;
-    padding-bottom: 94;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .caption {
     font-weight: 700;
@@ -213,16 +213,16 @@ body {
 }
 .prof-list {
     display: flex;
-    margin-top: 50;
+    margin-top: 50px;
 }
 .prof-item:not(:last-child) {
-    margin-right: 30;
+    margin-right: 30px;
 }
 
 .employees {
     background: var(--second-background);
-    padding-top: 94;
-    padding-bottom: 94;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .employee-subtitle {
     font-weight: 500;
@@ -242,18 +242,18 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--text-color);
-    margin-top: 10;
+    margin-top: 10px;
 }
 .employees-list {
     display: flex;
-    margin-top: 50;
+    margin-top: 50px;
 }
 .employee-item:not(:last-child) {
-    margin-right: 30;
+    margin-right: 30px;
 }
 .card-content-employee {
-    padding-top: 30;
-    padding-bottom: 30;
+    padding-top: 30px;
+    padding-bottom: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -263,12 +263,12 @@ body {
     background: var(--hero-background);
 }
 .footer-container {
-    padding-top: 60;
-    padding-bottom: 60;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .address-list {
     font-style: normal;
-    margin-top: 20;
+    margin-top: 20px;
 }
 .address-item:not(:first-child) {
     margin-top: 9px;
@@ -298,8 +298,8 @@ body {
 /* --------------! SECTION POTFOLIO ------------- */
 .filters-list {
     display: flex;
-    padding-top: 100;
-    margin-bottom: 56;
+    padding-top: 100px;
+    margin-bottom: 56px;
     justify-content: center;
 }
 .filter-item:not(:last-child) {
@@ -320,7 +320,7 @@ body {
     border-radius: 4px;
     border-color: var(--second-background);
     cursor: pointer;
-    padding: 6 22;
+    padding: 6px 22px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -353,7 +353,7 @@ body {
     letter-spacing: 0.03em;
 
     color: var(--text-color);
-    margin-top: 4;
+    margin-top: 4px;
 }
 .card-content-project {
     padding-top: 20px;
