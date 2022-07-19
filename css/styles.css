@@ -85,8 +85,6 @@ body {
     border-bottom: 1px solid #ececec;
 }
 .header-container {
-    padding-top: 24px;
-    padding-bottom: 25px;
     align-items: center;
     display: flex;
 }
@@ -103,6 +101,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-color-font);
+    padding: 32px 0;
+    display: block;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -126,6 +126,8 @@ body {
     letter-spacing: 0.02em;
 
     color: var(--text-color);
+    padding: 32px 0;
+    display: block;
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -135,6 +137,7 @@ body {
 
 /* --------------! HERO ------------- */
 .hero {
+    padding: 200px 0;
     background: var(--hero-background);
 }
 .title {
@@ -150,8 +153,6 @@ body {
 .hero-container {
     display: flex;
     width: 696px;
-    padding-top: 200px;
-    padding-bottom: 210px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -177,8 +178,12 @@ body {
     background: #188ce8;
 }
 /* --------------! SECTION INDEX ------------- */
+.pref {
+    padding-top: 94px;
+}
 .pref-subtitle {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -194,7 +199,6 @@ body {
 }
 .pref-list {
     display: flex;
-    padding-top: 94px;
     gap: 30px;
 }
 .pref-item {
@@ -257,14 +261,12 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background: var(--main-background);
 }
 /* --------------! FOOTER ------------- */
 .footer {
     background: var(--hero-background);
-}
-.footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 .address-list {
     font-style: normal;
@@ -296,14 +298,17 @@ body {
 
 /* ----------------------! PORTFOLIO MAIN -------------------- */
 /* --------------! SECTION POTFOLIO ------------- */
+.section {
+    padding: 94px 0;
+}
 .filters-list {
     display: flex;
     padding-top: 100px;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 .filter-item:not(:last-child) {
-    margin-right: 52px;
+    margin-right: 8px;
 }
 .filter-btn {
     font-family: inherit;
@@ -332,7 +337,6 @@ body {
     background: var(--brand-color);
 }
 .projects-list {
-    padding-bottom: 94px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
