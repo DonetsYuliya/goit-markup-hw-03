@@ -300,7 +300,6 @@ body {
 }
 .filters-list {
     display: flex;
-    padding-top: 100px;
     margin-bottom: 50px;
     justify-content: center;
 }
